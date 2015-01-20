@@ -1,0 +1,47 @@
+body {
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    color: #FFF;
+}
+
+.no {
+    background-color: #000;
+}
+
+.yes .nope,
+.no .yup {
+    display: none;
+}
+
+.yes {
+    background-color: #22a301;
+}
+
+.well--is--it {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 40em) {
+    body {
+        font-size: 6rem;
+    }
+    .well--is--it {
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+    }
+}
+
+@media only screen and (min-width: 40.063em) {
+    body {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    body {
+        font-size: 10rem;
+    }
+} 
